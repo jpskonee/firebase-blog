@@ -1,0 +1,27 @@
+.form-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+
+  .success-alert {
+    margin: 10px auto 20px;
+  }
+
+  input {
+    width: 17rem;
+    height: 2rem;
+    margin-bottom: 10px;
+  }
+
+  textarea {
+    width: 17rem;
+    height: 12rem;
+  }
+
+  button {
+    width: 5rem;
+    height: 2rem;
+  }
+}

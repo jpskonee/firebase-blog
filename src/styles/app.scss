@@ -1,0 +1,16 @@
+$light-blue: rgb(28, 176, 221);
+$dark-blue: #152d45;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@import "./home";
+@import "./loginreg";
+@import "./footer";
+@import "./navbar";
+@import "./brandname";
+@import "./homepage";
+@import "./dashboard";
+@import "./compose";
