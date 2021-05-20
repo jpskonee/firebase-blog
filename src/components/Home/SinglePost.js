@@ -1,6 +1,5 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, { useEffect, useState} from 'react';
 import moment from "moment";
-import firebase from "firebase";
 import {app} from "../../base"
 
 import { Container } from '@material-ui/core';

@@ -2,8 +2,6 @@ import React, {useContext} from 'react'
 import Container from '@material-ui/core/Container';
 import BrandName from './BrandName';
 import { Link } from "react-router-dom";
-import AllInboxIcon from '@material-ui/icons/AllInbox';
-import { Badge } from '@material-ui/core';
 
 import {AuthContext} from "../components/State-Management/AuthState"
 
@@ -19,14 +17,9 @@ const NavBar = ({ login, setLogin }) => {
     return (
         <nav>
             <Container maxWidth="md" className="nav-bar">
-                <Link to="/"> <BrandName />  </Link>  
+                <Link to="/home"> <BrandName />  </Link>  
                 <div className="btn">
-                     <div>
-                        <Badge color="primary" badgeContent={num}>
-                            <AllInboxIcon />
-                        </Badge>
-                         
-                    </div>
+                    
                     <div className="sign-in"> <Link to="/blog"> Blog </Link> </div>
                     <div  className="sign-in"> <Link to="/aboutus"> About Us  </Link>  </div> 
                     <div  className="sign-in"> <Link to="/compose"> Compose BLog </Link>  </div> 

@@ -58,12 +58,7 @@ const LoginReg = () => {
                 <Grid className="login-page" item lg={4} md={6} sm={6} xs={11}>
                     <BrandName />
                     <form>
-                    {/* <div>
-                        <input type="text" placeholder="First Name" />
-                    </div>
-                    <div>
-                        <input type="text" placeholder="Last Name" />
-                    </div> */}
+                    
                     <div>
                                 <input value={user} onChange={(e) => {
                                     const newUser = e.target.value;
@@ -84,7 +79,7 @@ const LoginReg = () => {
                                 }} type="password" placeholder="Password" />
                     </div>
                     
-                            <div className="login-btn" onClick={handleJoinNow}> Join Now{test}</div>
+                            <div className="login-btn" onClick={handleJoinNow}> Join Now</div>
                     </form>
 
                         <div className="txt-do-you"> Do you have an account? <span
